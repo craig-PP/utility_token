@@ -27,3 +27,7 @@ If you wish to deploy the points system yourself, install the following files on
 a sample 'points' API is hosted at the following location:
 https://w6d0eyjkea1lvhl-pp.adb.uk-london-1.oraclecloudapps.com/ords/procrastinate/points/current?wallet=SPDXC0NM3YQDHV1HN3V9P5Y4P26QWY709NB86EYB&project=PP%20Demo
 
+oauth2 client ID: Uoaj14stUfctRwB8n4XIyQ..
+oauth2 client secret: 92NvnNFgrmKJwSAhHdZ3tw..
+
+token url: https://w6d0eyjkea1lvhl-pp.adb.uk-london-1.oraclecloudapps.com/ords/procrastinate/oauth/token
