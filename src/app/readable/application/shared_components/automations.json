@@ -1,0 +1,38 @@
+[
+  {
+    "id":"15315982806977126"
+   ,"Identification":{
+      "Name":"Run Yield"
+     ,"Static ID":"run-yield"
+    }
+   ,"Execution":{
+      "Type":"Scheduled"
+     ,"Schedule Expression":"FREQ=DAILY;INTERVAL=1;BYHOUR=0;BYMINUTE=0"
+     ,"Schedule Status":"Active"
+     ,"Actions Initiated On":"Always"
+    }
+   ,"Action Execution":{
+      "Action Error Handling":"Ignore"
+    }
+   ,"Actions":[
+      {
+        "id":"15316290550977145"
+       ,"Identification":{
+          "Name":"Run Yield"
+         ,"Type":"Execute Code"
+        }
+       ,"Source":{
+          "Location":"Local Database"
+         ,"Language":"PL\/SQL"
+         ,"PL\/SQL Code":"begin\r\n    project_points_pkg.assign_yield_points;\r\nend;"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Error":{
+          "Stop Execution On Error":true
+        }
+      }
+    ]
+  }
+]

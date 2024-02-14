@@ -1,0 +1,268 @@
+{
+  "id":"115"
+ ,"Identification":{
+    "Name":"Stacks Utility Token"
+   ,"Alias":"STACKS-UTILITY-TOKEN"
+   ,"Version":"Release 1.0"
+  }
+ ,"Row Search":{
+    "Tokenize":true
+  }
+ ,"Availability":{
+    "Status":"Available with Developer Toolbar"
+   ,"Build Status":"Run and Build Application"
+  }
+ ,"Error Handling":{
+    "Default Display Location":"Inline with Field and in Notification"
+  }
+ ,"Report Printing":{
+    "Type":"Native Printing"
+  }
+ ,"Advanced":{
+    "Friendly URLs":true
+   ,"Allow Feedback":true
+   ,"Logging":true
+   ,"Debugging":false
+   ,"Compatibility Mode":"21.2 \/ 22.1 \/ 22.2"
+   ,"Pass ECID":"Y"
+  }
+ ,"Authentication":{
+    "Public User":"APEX_PUBLIC_USER"
+   ,"Authentication Scheme":"Oracle APEX Accounts (14963161991615486)"
+  }
+ ,"Authorization":{
+    "Source for Role or Group Schemes":"Access Control User Role Assignments"
+  }
+ ,"Session Management":{
+    "Rejoin Sessions":"Disabled"
+  }
+ ,"Session State Protection":{
+    "Enabled":true
+  }
+ ,"Security":{
+    "Deep Linking":"Disabled"
+   ,"Browser Cache":"Disabled"
+   ,"Embed in Frames":"Deny"
+   ,"Referrer Policy":"strict-origin"
+   ,"HTML Escaping Mode":"Extended"
+  }
+ ,"Database Session":{
+    "Parsing Schema":"WKSP_PROCRASTINATE"
+  }
+ ,"Globalization":{
+    "Primary Language":"English (en)"
+   ,"Document Direction":"Left-To-Right"
+   ,"Language Derived From":"Application Primary Language"
+   ,"Automatic Time Zone":false
+   ,"Automatic CSV Encoding":true
+  }
+ ,"Application Format Masks":{
+    "Date":"DS"
+   ,"Timestamp":"DS"
+   ,"Timestamp Time Zone":"DS"
+  }
+ ,"Character Value Comparison":{
+    "Behavior":"Database session NLS setting (default)"
+  }
+ ,"Logo":{
+    "Type":"Text"
+   ,"Text":"Stacks Utility Token"
+  }
+ ,"Progressive Web App":{
+    "Enable":true
+   ,"Installable":false
+   ,"Display":"Standalone"
+   ,"Screen Orientation":"Any"
+   ,"iOS Status Bar Style":"Default"
+   ,"Enable Push Notifications":false
+  }
+ ,"Navigation":{
+    "Home URL":{
+      "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+     ,"Page":"1"
+    }
+   ,"Login URL":{
+      "url":"f?p=\u0026APP_ID.:LOGIN:\u0026APP_SESSION.::\u0026DEBUG.:::"
+     ,"Page":"LOGIN"
+    }
+  }
+ ,"Navigation Menu":{
+    "List Template":"Side Navigation Menu (15134375604615605)"
+   ,"Template Options":[
+      "#DEFAULT#"
+     ,"t-TreeNav--styleA"
+     ,"js-navCollapsed--hidden"
+    ]
+   ,"List Position":"Side"
+   ,"List":"Navigation Menu (14963909958615491)"
+  }
+ ,"Navigation Bar":{
+    "Implementation":"List"
+   ,"List":"Navigation Bar (15252785136615824)"
+   ,"List Template":"Navigation Bar (15133947337615605)"
+   ,"Template Options":[
+      "#DEFAULT#"
+    ]
+  }
+ ,"JavaScript":{
+    "Include jQuery Migrate":false
+  }
+ ,"Attributes":{
+    "Theme":"Universal Theme (42)"
+   ,"Global Page":"0"
+   ,"Enable End Users to choose Theme Style":false
+   ,"Add \"Built with APEX\" to Footer":false
+  }
+ ,"Substitutions":[
+    {
+      "id":"1"
+     ,"Identification":{
+        "Name":"APP_NAME"
+      }
+     ,"Value":{
+        "Static Value":"Stacks Utility Token"
+      }
+    }
+  ]
+ ,"Component Settings":[
+    {
+      "id":"14959838098615478"
+     ,"Identification":{
+        "Name":"NATIVE_DISPLAY_SELECTOR"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253813
+      }
+    }
+   ,{
+      "id":"14960196437615481"
+     ,"Identification":{
+        "Name":"NATIVE_DATE_PICKER_APEX"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"MONTH-PICKER:YEAR-PICKER:TODAY-BUTTON"
+       ,"Attribute 2":"VISIBLE"
+       ,"Attribute 3":"15"
+       ,"Attribute 4":"FOCUS"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253814
+      }
+    }
+   ,{
+      "id":"14960455726615481"
+     ,"Identification":{
+        "Name":"NATIVE_COLOR_PICKER"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"FULL"
+       ,"Attribute 2":"POPUP"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253814
+      }
+    }
+   ,{
+      "id":"14960795409615482"
+     ,"Identification":{
+        "Name":"NATIVE_YES_NO"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+       ,"Attribute 3":"N"
+       ,"Attribute 5":"SWITCH_CB"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253815
+      }
+    }
+   ,{
+      "id":"14961018085615482"
+     ,"Identification":{
+        "Name":"NATIVE_SINGLE_CHECKBOX"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+       ,"Attribute 2":"N"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253815
+      }
+    }
+   ,{
+      "id":"14961391937615482"
+     ,"Identification":{
+        "Name":"NATIVE_ADFBC"
+       ,"Type":"REST Data Source"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253818
+      }
+    }
+   ,{
+      "id":"14961604629615482"
+     ,"Identification":{
+        "Name":"NATIVE_GEOCODED_ADDRESS"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"RELAX_HOUSE_NUMBER"
+       ,"Attribute 2":"N"
+       ,"Attribute 3":"POPUP:ITEM"
+       ,"Attribute 4":"default"
+       ,"Attribute 6":"LIST"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253819
+      }
+    }
+   ,{
+      "id":"14961971811615482"
+     ,"Identification":{
+        "Name":"NATIVE_STAR_RATING"
+       ,"Type":"Item"
+      }
+     ,"Settings":{
+        "Attribute 1":"fa-star"
+       ,"Attribute 4":"#VALUE#"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253820
+      }
+    }
+   ,{
+      "id":"14962252962615483"
+     ,"Identification":{
+        "Name":"NATIVE_IR"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"IG"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253820
+      }
+    }
+   ,{
+      "id":"14962545577615483"
+     ,"Identification":{
+        "Name":"NATIVE_MAP_REGION"
+       ,"Type":"Region"
+      }
+     ,"Settings":{
+        "Attribute 1":"Y"
+      }
+     ,"Subscription":{
+        "Version Number":41099200253821
+      }
+    }
+  ]
+}
