@@ -1,0 +1,37 @@
+{
+  "general_messages": [
+    {
+      "WELCOME": "Welcome to the default PP server"
+    }
+  ],
+  "register": [
+    {
+      "COMMAND_NAME": "register",
+      "COMMAND_DESCRIPTION": "Authorise your STX wallet on The PP database",
+      "COLOR": "#06cf21",
+      "COLOR_EXISTS": "#a80000",
+      "TITLE": "Procrastinate Pixels Registration",
+      "DESCRIPTION": "Register your STX wallet to your DiscordID",
+      "FIELD1_NAME": "Registration",
+      "FIELD1_VALUE": "Please visit https://service-9598.something.gg/?authid=",
+      "FIELD1_VALUE2": " to continue the registration process",
+      "FIELD1_VALUE_EXISTS": "You have already registered with this DiscordID",
+      "EPHEMERAL": true
+    }
+  ],
+  "coins": [
+    {
+      "COMMAND_NAME": "award",
+      "COMMAND_DESCRIPTION": "Award a user some",
+      "COLOR": "#06cf21",
+      "TITLE": "s received",
+      "DESCRIPTION": "Lucky you!",
+      "FIELD1_NAME": "awarded",
+      "TAKEN_COLOR": "#a80000",
+      "TAKEN_TITLE": "s'taken",
+      "TAKEN_DESCRIPTION": "Oh dear",
+      "TAKEN_FIELD_NAME": "deducted",
+      "EPHEMERAL": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "botOptions": [
+    {
+      "name": "Generic Bot",
+      "port": 2000
+    }
+  ],
+  "projectOptions": [
+    {
+      "coinName": "Coin"
+    }
+  ],
+  "collections": [
+    {
+      "name": "NAME",
+      "shortName": "NAME",
+      "icon": "https://i.imgur.com/N8srYwS.png",
+      "stxAddress": "&asset_identifiers=TBC",
+      "yield": 1
+    }
+  ],
+  "autoRoles": [
+    {
+      "name": "Guest",
+      "minNft": 0,
+      "roleImg": "https://i.imgur.com/N8srYwS.png"
+    }
+  ],
+  "welcomeImages": [
+    "https://i.imgur.com/N8srYwS.png",
+    "https://i.imgur.com/N8srYwS.png",
+    "https://i.imgur.com/N8srYwS.png",
+    "https://i.imgur.com/N8srYwS.png",
+    "https://i.imgur.com/N8srYwS.png"
+  ]
+}
